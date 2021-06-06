@@ -140,7 +140,7 @@ void CTRexprojectView::OnPaint()
 	//마우스 포인터 위치 출력용 (공룡게임과 무관)
 	CClientDC dc(this);
 	CString str;
-	str.Format(L"x = %d, y = %d", m_pos.x, m_pos.y);
+	str.Format("x = %d, y = %d", m_pos.x, m_pos.y);
 	dc.TextOut(m_pos.x- 100, m_pos.y, str);
 }
 

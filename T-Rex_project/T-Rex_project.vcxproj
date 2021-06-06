@@ -45,7 +45,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -115,11 +115,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Users\DELL\source\repos\T-Rex_project-master\T-Rex_project\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\\Mac\Home\Desktop\Dev\GitHub\koreaygj\T-Rex_project-last\T-Rex_project\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <AdditionalDependencies>C:\Users\DELL\source\repos\T-Rex_project-master\T-Rex_project\lib\libmysql.lib</AdditionalDependencies>
+      <AdditionalDependencies>\\Mac\Home\Desktop\Dev\GitHub\koreaygj\T-Rex_project-last\T-Rex_project\lib\libmysql.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>\\Mac\Home\Desktop\Dev\GitHub\koreaygj\T-Rex_project-last\T-Rex_project\lib</AdditionalLibraryDirectories>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
